@@ -6,13 +6,454 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HONDA</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
     <!-- css cnd link -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!----------- header section start ----------->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-0 button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!----------- header section end ------------>
+    <!------------- main section start ------------>
+    <main>
+        <!------------- hero-section start ------------->
+        <section class="hero-section pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="content d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="col-lg-6 pb-5 col-md-6 col-12 hero-content">
+                            <p>Computer-controlled digital transistorized with electronic advance</p>
+                            <h1>Honda CBR 300R</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
 
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-danger fw-4" id="exampleModalLabel">Modal title
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam itaque
+                                            iusto ipsam voluptatibus doloribus commodi architecto exercitationem
+                                            mollitia libero sunt.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn button"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn button">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal -->
+                        <div class="col-lg-6 col-12 pt-1">
+                            <img src="image/header-bike.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------- hero-section end -------------->
+
+        <!------------- Fetured-Bikes section start ------------->
+        <section class="Fetured-Bikes p-5">
+            <div class="container pb-5">
+                <div class="featured-content pt-4">
+                    <h1 class="text-center">Fetured Bikes 2021</h1>
+                    <p class="text-center">Best bike collection</p>
+                    <hr class="horijontal">
+                </div>
+                <div class="row g-4 pt-5 d-flex justify-content-between flex-wrap">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <img src="image/output-onlinejpgtools.jpg" class="img-fluid p-2 " alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <img src="image/feature-bike.jpg" class="img-fluid p-2" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <img src="image/output-onlinejpgtools.jpg" class=" img-fluid p-2" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------ Fetured-Bikes section end ------------>
+
+        <!------------ happy-client section start ------------>
+        <section class="happy-client pt-5">
+            <h1 class="text-center pb-5">Happy <span>Clients says</span></h1>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="image/user-1.png" class="img-fluid w-50 pt-4 m-auto card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="text-center icon pb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="text-center">
+                                    <h5 class="text-info fw-5">Regina Miles</h5>
+                                    <h5>Banker</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="image/user-2.png" class="img-fluid w-50 pt-4 m-auto card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="text-center icon pb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="text-center">
+                                    <h5 class="text-info fw-5">Regina Miles</h5>
+                                    <h5>Banker</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="image/cover.png" class="img-fluid w-50 pt-4 m-auto card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="text-center icon pb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="text-center">
+                                    <h5 class="text-info fw-5">Regina Miles</h5>
+                                    <h5 class="text-grey">Banker</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------ happy-client section end ------------>
+
+        <!------------ Frequently section start ------------>
+        <section class="Frequently">
+            <h1 class='text-center'>Frequently Asked <span>Questions</span></h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mt-5 pt-5">
+                        <div>
+                            <img src="image/faq.png" class="img-fluid image" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-4 pt-5 Frequently-content">
+                        <div class="mt-5">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item mb-4">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button p-4" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <h4>What are the most important things I should
+                                                know about riding a bike?</h4>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Safety First!</strong> Always obey the rules of the road. Obey all
+                                            traffic signals,
+                                            signs, and laws. Get in the mindset of
+                                            “driving” your bike—not just “riding” your bike. This will help you be a
+                                            more focused and legally compliant bike rider.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item mb-4">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button p-4 collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <h4>How can I tell if my helmet is old and I need a
+                                                new one?</h4>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Honda's philosophy behind its environmental commitment is to ensure Blue
+                                            Skies For Our Childern. This philosophy is the
+                                            impetus behind Honda's many efforts to reduce the environmental impact of
+                                            its manfacturing operations, as well as
+                                            throughout the lifecycle of its products.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-3">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button p-4 collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <h4>My bike has been in storage is it safe to ride?</h4>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Honda's philosophy behind its environmental commitment is to ensure Blue
+                                            Skies For Our Childern. This philosophy is the
+                                            impetus behind Honda's many efforts to reduce the environmental impact of
+                                            its manfacturing operations, as well as
+                                            throughout the lifecycle of its products.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------ Frequently section end ------------>
+
+        <!--------------- Top-sports-bikes section start ---------------->
+        <section class="m-5">
+            <div class="text-center">
+                <h1><span>TOP SPORTS BIKES</span> IN <span>BANGLADESH 2021</span></h1>
+                <p>Below we have mentioned almost all the top rated sport bike or motorcycle in Bangladesh,<br> as well
+                    as
+                    latest price, quick
+                    specifications and recent images.</p>
+                <hr class="horijonta-2 mb-4">
+            </div>
+            <div class="container mt-5">
+                <div class="row flex-wrap d-flex justify-content-between align-items-center text-center ms-3">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4" style="width: 20rem;">
+                            <img src="image/bike-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Suzuki GSX R150</h5>
+                                <p class="card-text">Suzuki GSX R150 is one of the most popular inventions of Suzuki in
+                                    the
+                                    150 cc segment in Bangladeshi bike market.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Engine : 150cc (liq cooled)</li>
+                                <li class="list-group-item">Top Speed : 130 Kmph (approx)</li>
+                                <li class="list-group-item">Mileage : 43 Kmpl (combined)</li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="#" class="card-link sports-btn"><i class="fas fa-motorcycle"></i> More
+                                    Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4" style="width: 20rem;">
+                            <img src="image/bike-4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Honda CBR150R Repsol</h5>
+                                <p class="card-text">Honda CBR is always a big name, we are eligible only for this
+                                    little boy of this CBR series named “Honda CBR 150R”.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Engine : 150 cc (liq-cooled)</li>
+                                <li class="list-group-item">Top Speed : 160 Kmph (approx)</li>
+                                <li class="list-group-item">Mileage : 35 Kmpl (combined)</li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="#" class="card-link sports-btn"><i class="fas fa-motorcycle"></i> More
+                                    Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 ">
+                        <div class="card mb-4" style="width: 20rem;">
+                            <img src="image/bike-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Yamaha R15 v3</h5>
+                                <p class="card-text">The total series of R15 is very popular around the world, as well
+                                    as Bangladesh.which is Yamaha R15 v3</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Engine : 155 cc (liq-cooled)</li>
+                                <li class="list-group-item">Top Speed : 153 Kmph (approx)</li>
+                                <li class="list-group-item">Mileage : 35 Kmpl (combined)</li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="#" class="card-link sports-btn"><i class="fas fa-motorcycle"></i> More
+                                    Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------- Top-sports-bikes section end ---------------->
+
+        <!--------------- Honda-Bike-Price section start ---------------->
+        <section>
+            <div class="container pt-5 mt-5">
+                <h1 class="text-center">Official <span class="">Honda Bike Price</span> In BD</h1><br>
+                <hr class="horijonta-2 mb-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card mb-3" style="max-width:530px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="image/bike-1.png" class="img-fluid rounded-start w-100%" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Suzuki Gixxer SF 155.</h5>
+                                        <h5>৳ 172,900</h5>
+                                        <p class="card-text">The Apache RTR 160 is the heartthrob bike for the young
+                                            Bangladeshi fashionable bikers. It’s been a long time Apache RTR
+                                            is playing in Bangladesh.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-3" style="max-width: 530px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="image/bike-4.jpg" class="img-fluid rounded-start w-100%" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">TVS Apache RTR 160</h5>
+                                        <h5>৳ 172,900</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional
+                                            content. This content is a little bit longer.However let’s see the main
+                                            reason of attraction to this bike.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card mb-3" style="max-width: 530px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="image/bike-3.png" class="img-fluid rounded-start w-100%" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Honda Dream 110</h5>
+                                        <h5>৳ 172,900</h5>
+                                        <p class="card-text">Honda Dream 110 is a standard commuter motorcycle from the
+                                            Japanese brand. This bike gets a 110cc BS-IV approved engine.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-3" style="max-width: 530px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="image/bike-2.png" class="img-fluid rounded-start w-100%" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Honda XBlade 160</h5>
+                                        <h5>৳ 172,900</h5>
+                                        <p class="card-text">Honda xBlade is a 160 cc upcoming sports bike in
+                                            Bangladesh. The bike is a naked sports which consists of 162.71 cc
+                                            engine that can release 13.93 Bhp.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------- Honda-Bike-Price section end ---------------->
+    </main>
     <!-- bootstrap js cdn link -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

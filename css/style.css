@@ -1,0 +1,115 @@
+span{
+    color:#E76F51;
+}
+/* navar start */
+.navbar-nav li{
+    padding:10px 10px;
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.navbar{
+ background-color: #264653;
+}  
+.nav-link{
+    color:#fff!important;
+}
+.button{
+    background-color: #E76F51;
+    color:#fff;
+    padding:10px 25px ;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+.button:hover{
+    color:#fff;
+}
+.button:focus{
+    outline: 0!important;
+    box-shadow: none;
+}
+/* hero-section */
+.hero-section{
+    background-color:#264653;
+}
+.hero-content p{
+    color:#fff;
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-content h1{
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    font-size:48px;
+}
+/* Fetured-Bikes start */
+.horijontal{
+    width:10%;
+    margin:auto;
+    height:3px!important;
+    color:#ff3300!important;
+}
+.featured-content p{
+    color:#E76F51;
+}
+/* fearured-bikes end */
+
+/* happy-client */
+.happy-client h1{
+    color:#0A0826;
+    font-size:48px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+}
+.icon{
+    color:#E76F51
+}
+/* happy-client section end */
+
+/* Frequently section start start */
+.Frequently{
+    padding-top: 10%;
+}
+.Frequently h1{
+    color:#000;
+    font-family: 'Poppins', sans-serif;
+    font-size:48px;
+    font-weight:600;
+}
+.image{
+    width:432px;
+    height:423px;
+}
+.accordion:focus{
+    outline:0;
+    box-shadow:none;
+}
+.accordion-button:focus{
+     outline:0;
+    box-shadow:none;
+    background-color:#264653;
+    color:#fff;
+}
+.accordion-button{
+     background-color:#5c869e;
+     color:#fff;
+}
+/*  */
+
+.horijonta-2{
+  color:#E76F51;
+  width:12%;
+  height: 3px!important;
+  margin:auto;
+  line-height: 5px;
+}
+/* sports */
+.sports-btn{
+    text-decoration: none;
+    padding:10px 25px;
+    background-color: #E76F51;
+    display: block;
+    color:#fff;
+}
